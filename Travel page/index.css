@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Qwigley&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Peralta&family=Poppins:wght@200&family=Qwigley&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Peralta&family=Poppins:ital,wght@0,100;0,200;0,700;1,600&family=Qwigley&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.container {
+    width: fit-content;
+    height: fit-content;
+    align-content: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.firstpage {
+    background: url("bg.png");
+    /* background-size: 1200px; */
+    background-repeat: no-repeat;
+    height: 1000px;
+    width: 1440px;
+    object-fit: cover;
+    padding: 20px;
+}
+
+.firstpage nav {
+    position: inherit;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li {
+    display: inline-block;
+    font-size: 20px;
+}
+
+nav>h1 {
+    position: static;
+    width: 314px;
+    height: 45px;
+    top: 48px;
+    left: 55px;
+    border: 1px;
+    font-family: 'Peralta', serif;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 52px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.firstpage ul {
+    margin-right: 50px;
+}
+
+.firstpage li {
+    font-size: 30px;
+    font-weight: 800;
+    margin-left: 70px;
+}
+
+.firstpage .navbtn {
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    gap: 14px;
+}
+
+.firstpage .navbtn button {
+    background: #EC682C;
+    padding: 10px 20px 8px 20px;
+    border: 1px;
+    border-radius: 8px;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.findout {
+    margin-top: 300px;
+    padding: 1px;
+}
+
+.findout h1 {
+    font-family: "poppins";
+    font-weight: 700;
+    font-size: 46px;
+    color: rgba(75, 64, 197, 1);
+}
+
+.findout h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.findout button {
+    background: rgba(75, 64, 197, 1);
+    padding: 20px 40px;
+    border: 50px;
+    border-radius: 13px;
+    -webkit-border-radius: 13px;
+    -moz-border-radius: 13px;
+    -ms-border-radius: 13px;
+    -o-border-radius: 13px;
+    color: aliceblue;
+    font-size: 20px;
+    margin-top: 30px;
+    font-weight: 500;
+}
+
+.secondpage {
+    width: 1440px;
+    /* height: 6406px; */
+    padding: 20px;
+}
+
+.secondpage h3 {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin: 10px;
+    font-weight: 700;
+    font-size: 32px;
+    color: rgba(75, 64, 197, 1);
+}
+
+.secondpage h1 {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin: 10px;
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.secondpage .card {
+    display: flex;
+    padding: 40px;
+    margin: center;
+    gap: 90px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}
+
+.secondpage .card1, .card2, .card3, .card4 {
+    width: 250px;
+}
+
+.card h4 {
+    padding: 20px;
+    font-size: 24px;
+}
+
+.card p {
+    font-size: 20px;
+}
+
+.thirdpage h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    color: rgba(75, 64, 197, 1);
+}
+
+.thirdpage h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 93px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.thirdpage .card{
+    text-align: center;
+    margin-top: 40px;
+    display: flex;
+    gap: 30px;
+}
+
+.cardoneimg{
+    height: 500px;
+}
+
+.label1,.label2,.label3{
+    font-family: 'Poppins', sans-serif;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    color: rgba(94, 98, 130, 1);
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.footone,.foottwo,.footthree{
+    padding: 10px;
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 550;
+    font-size: 10px;
+    color: rgba(94, 98, 130, 1);
+
+}

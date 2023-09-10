@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Qwigley&display=swap');
+
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.navbarbrand {
+    /* position: absolute; */
+    /* width: 221px; */
+    /* height: 96px; */
+    /* left: 169px; */
+    /* top: 11px; */
+    font-family: "Qwigley";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 120%;
+    color: #FFB30E;
+}
+
+.homepage {
+    /* position: static; */
+    /* width: auto; */
+    /* height: 632px; */
+    /* top: 101px; */
+    /* left: 1px; */
+    background: rgba(253, 190, 53, 1);
+    /* min-width: 100%; */
+}
+
+.lookmeals {
+    /* position: absolute; */
+    /* width: 519px; */
+    /* height: 88px; */
+    /* top: 243px; */
+    /* left: 178px; */
+    font-family: 'Qwigley';
+    font-size: 88px;
+    font-weight: 400;
+    /* line-height: 88px; */
+    /* letter-spacing: 0em; */
+    /* text-align: left; */
+    color: #FFFFFF;
+    text-shadow: 0px 14px 15px rgba(255, 174, 0, 0.01), 0px 27px 82px rgba(255, 174, 0, 0.28);
+}
+
+.within {
+    /* position: relative; */
+    /* width: 532px; */
+    /* height: 26px; */
+    /* top: 342px; */
+    /* left: 180px; */
+    font-family: Source Sans Pro;
+    font-size: 22px;
+    font-weight: 400;
+    /* line-height: 26px; */
+    /* letter-spacing: 0em; */
+    /* text-align: left; */
+    color: rgba(80, 79, 79, 1);
+}
+
+.container {
+    /* position: absolute; */
+    /* width: 856px; */
+    /* height: 150px; */
+    /* top: 400px; */
+    /* left: 180px; */
+    /* padding: 24px; */
+    /* gap: 8px; */
+    /* background: rgba(255, 255, 255, 1); */
+}
+
+.bi-bicycle {
+    background: rgba(241, 114, 40, 0.1);
+    padding: 7px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+/* .navcenter { */
+/* width: 530px; */
+/* height: 25px; */
+/* top: 43px; */
+/* left: 623.5px; */
+/* gap: 12px */
+/* } */
+/*  */
+/* .deliverTo { */
+/* width: 83px; */
+/* height: 18px; */
+/* } */
+/*  */
+/* .curloc { */
+/* width: 141px; */
+/* height: 25px; */
+/* } */
+/*  */
+/* .ashonagar { */
+/* width: 267px; */
+/* height: 25px; */
+/* } */
+.third .rounded {
+    color: rgba(241, 114, 40, 1);
+    background-color: rgba(241, 114, 40, 0.2);
+    text-align: center;
+    width: 50%;
+}
+
+.four {
+    text-align: center;
+    color: rgba(241, 114, 40, 1);
+    font-family: Source Sans Pro;
+    font-weight: 700;
+    font-size: 43px;
+}
+
+.four1 {
+    border-color: rgba(255, 255, 255, 1);
+    box-shadow: 0px 5px 27px 11px rgba(255, 181, 21, 0.1);
+}
+
+.four1 p {
+    color: rgba(241, 114, 40, 1);
+    font-size: 35px;
+    font-family: "Source Sans Pro";
+    font-weight: 700;
+}
+
+.five {
+    width: fit-content;
+    height: fit-content;
+    /* top: 1937px; */
+    background: rgba(246, 245, 238, 1);
+}
+
+.six span{
+    color:rgba(255, 179, 14, 1);
+}
+
+.six b{
+    padding: 10px;
+    /*width: 70px;
+    */color: #FFFFFF;
+    background: linear-gradient(92.84deg, #FFB800 -47.72%, #FF8A00 136.81%);
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.six p{
+    color: (97, 97, 97, 0.69)
+}
+
+.seven .order{
+    color: #FFFFFF;
+    background: rgba(241, 114, 40, 1);
+    font-size: 20px;
+}
+
+.footerinput{
+    padding: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    width: fit-content;
+    background-color:rgba(66, 66, 66, 1);
+}
+
+.footerr input{
+    outline: none;
+    border: none;
+}
+
+.footerr label{
+    color: #FFFFFF;
+    background: linear-gradient(92.84deg, #FFB800 -47.72%, #FF8A00 136.81%);
+}
