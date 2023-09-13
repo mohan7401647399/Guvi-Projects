@@ -33,42 +33,64 @@
     />
   </head>
   <body>
-    <div class="container-fluid p-1">
+    <div class="container p-1">
       <div class="row">
-        <nav class="navbar m-auto">
-          <div class="col-3">
-              <p class="navbarbrand ml-5">Hot Meals</p>
-            </div>
-            <div class="col-5">
-              <div class="navcenter d-flex gap-2">
-                <p class="deliverTo font-weight-bold">Deliver to:</p>
-                <i class="icon-map-marker text-warning"></i>
-                <p class="curloc">Current Location</p>
-                <p class="ashonagar font-weight-bold">
-                  Ashok Nagar, Chennai-600013
-                </p>
+        <div class="col-xs-12 col-sm-12 col-md-12">          
+      <nav class="navbar justify-content-around m-auto navbar-expand-sm">
+        <div class="container-fluid">
+          <a class="navbar-brand text-warning">Hot Meals</a>
+          <span> Deliver to: <i class="icon-map-marker text-warning"></i> Current Location Ashok Nagar, Chennai-600013</span>
+          <form class="form-inline gap-2 mt-1 mb-2">
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <div class="input-group-text">
+                  <i class="bi bi-search text-warning"></i>
+                </div>
+              </div>
+              <div class="input-group-text">
+                <input type="text" placeholder="Search Food">
               </div>
             </div>
-            <div class="col-3">
-              <div class="navaddress d-flex p-2 gap-3">
-                <i class="bi bi-search text-warning"></i>
-                search Food
-                <div
-                  class="login text-warning font-weight-bold border border-2 border-warning rounded p-1"
-                >
-                  <i class="bi bi-person"></i>
-                  Login
-              </div>
-            </div>
-          </nav>
+            <button class="btn btn-warning"><i class="bi bi-person"></i> Login</button>
+          </form>
         </div>
-      </div>
-      <div class="homepage">
-        <div class="container">
-          <div class="row">
-            <div class="col-6">
-              <p class="lookmeals mt-5">Look at your fav Meals</p>
-              <p class="within">
+      </nav>
+        <!-- <nav class="navbar m-auto justify-content-evenly"> -->
+            <!-- <div class="row"> -->
+              <!-- <div class="col"> -->
+                  <!-- <p class="navbar-brand">Hot Meals</p>
+                </div>
+                <div class="text-center">
+                  <div class="navcenter d-flex gap-2">
+                    <p class="deliverTo font-weight-bold">Deliver to:</p>
+                    <i class="icon-map-marker text-warning"></i>
+                    <p class="curloc">Current Location</p>
+                    <p class="ashonagar font-weight-bold">
+                      Ashok Nagar, Chennai-600013
+                    </p>
+                  </div>
+                </div>
+                <div class="">
+                  <div class="align-items-center d-flex p-2 gap-3">
+                    <i class="bi bi-search text-warning"></i>
+                    search Food
+                    <div
+                      class="login text-warning font-weight-bold border border-2 border-warning rounded p-1"
+                    >
+                      <i class="bi bi-person"></i>
+                      Login
+                  </div>
+              </div>
+            </div>
+          </div>
+        </nav> -->
+      <!-- second page -->
+      <div class="container p-3 m-3">
+          <div class="homepage">
+          <div class="row m-auto">
+            <div class="col-6 ml-5">
+              <p class="lookmeals">Look at your fav Meals</p>
+              <p class="within mb-4">
                 Within a few clicks, find meals that are accessible near you
               </p>
               <div class="container mt-5">
@@ -81,19 +103,19 @@
                       <input type="text" placeholder="Enter your address" class="border-0" />
                     </div>
                     <div class="findfood ml-2 bg-danger p-2 rounded">
-                      <i class="bi bi-search text-white">  Food Food</i>
-                      <!-- <p class="text-white">Find Food</p> -->
+                      <i class="bi bi-search text-white">  Find Food</i>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="col">
+            <div class="col align-content-center m-auto">
               <img src="leaf.png" alt="">
             </div>
           </div>
         </div>
       </div>
+      <!-- third page -->
       <div class="container mt-5 third d-flex gap-3">
         <div class="row">
           <div class="col">
@@ -124,7 +146,7 @@
           </div>
         </div>
       </div>
-      <div class="container">
+      <div class="container p-2 mt-5">
         <p class="four"><b>How does it work</b></p>
         <div class="four1">
           <div class="row p-3 m-auto d-flex border">
@@ -143,7 +165,7 @@
           </div>
         </div>
       </div>
-      <div class="container-fluid five p-4">
+      <div class="container five p-4 mt-5">
         <h3 class="ml-5"><b>Search by Food</b></h3>
         <div class="row text-center w-75 m-auto p-3">
           <div class="col-2">
@@ -172,7 +194,7 @@
           </div>
         </div>
       </div>
-      <div class="container six p-5">
+      <div class="container six p-5 mt-5">
         <div class="row ">
           <div class="col-4 align-self-center  text-left">
             <h2 class="font-weight-bold">Best deals <span>Crispy Diffen</span></h2>
@@ -185,7 +207,7 @@
         </div>
       </div>
 <!-- items -->
-      <div class="container-fluid seven text-center p-5">
+      <div class="container seven text-center p-5">
         <h2 class="font-weight-bold text-center">Popular Items</h2>
         <div class="row d-flex p-2 ">
               <div class="col">
@@ -243,7 +265,7 @@
         </div>
       </div>
       <!-- footer -->
-      <footer class="container-fluid bg-dark p-5">
+      <footer class="container bg-dark p-5">
         <div class="row text-light">
           <div class="col-2">
             <h4>Company</h4>
@@ -284,6 +306,8 @@
           <p class="text-light">Made with by &#9829 R.Mohan</p>
         </div>
       </footer>
+        </div>
+      </div>
     </div> <!-- <full div> -->
   </body>
 </html>
